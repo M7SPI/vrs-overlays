@@ -19,3 +19,5 @@ I am grateful for the following resources which have been used in this code:
 - Leaflet grouped layer control from [ismyrnow](https://github.com/ismyrnow/leaflet-groupedlayercontrol)
 - Night and day overlay from (Jörg Dietrich)(http://joergdietrich.github.io/Leaflet.Terminator/)
 - Leaflet colour markers from (pointhi)[https://github.com/pointhi/leaflet-color-markers]
+
+For the weather overlays to work you will need to sign up for an API code from [Aeris Weather](https://www.aerisweather.com/signup/developer/).
