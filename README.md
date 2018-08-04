@@ -20,3 +20,7 @@ I am grateful for the following resources which have been used in this code:
 - Leaflet colour markers from (pointhi)[https://github.com/pointhi/leaflet-color-markers]
 
 For the weather overlays to work you will need to sign up for an API code from [Aeris Weather](https://www.aerisweather.com/signup/developer/).
+
+Screenshot of working example:
+
+![Screenshot](https://raw.githubusercontent.com/nitro999/vrsoverlays/master/screenshot.jpg)
