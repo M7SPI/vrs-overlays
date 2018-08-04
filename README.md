@@ -1,4 +1,3 @@
-# This code is still under development and will be published shortly.
 ## Overlays and controls for Virtual Radar Server using Leaflet maps
 
 This JavaScript code is a plugin for the ADSB aircraft tracking [Virtual Radar Server](http://www.virtualradarserver.co.uk) software. The Javascript files need to be used with the Virtual Radar Server [Custom Content plugin](http://www.virtualradarserver.co.uk/Documentation/CustomContent/Default.aspx).
