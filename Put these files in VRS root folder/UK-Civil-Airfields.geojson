@@ -32,7 +32,7 @@
         "ICAO": "EGBJ",
         "IATA": "GLO",
         "Runways": "04 / 22<br />09 / 27<br />18 / 36",
-        "Aerodrome chart": "<a href=\"http://www.ead.eurocontrol.int/eadbasic/pamslight-B75AA276DE17E2B14C67F8195440D4FB/7FE5QZZF3FXUS/EN/Charts/AD/NON_AIRAC/EG_AD_2_EGBJ_2-1_en_2016-03-03.pdf\" target=\"New\">View</a>",
+        "Aerodrome chart": "<a href=\"http://www.ead.eurocontrol.int/eadbasic/pamslight-867CB6B9DC43D8C2DCF7C785619A86BE/7FE5QZZF3FXUS/EN/Charts/AD/NON_AIRAC/EG_AD_2_EGBJ_2-1_en_2016-03-03.pdf\" target=\"New\">View</a>",
         "Frequencies": "127.475 (ATIS)<br />128.550 (Approach)<br />122.900 (Tower)<br />120.975 (Radar)<br />121.600 (Fire)"
       },
       "geometry": {
