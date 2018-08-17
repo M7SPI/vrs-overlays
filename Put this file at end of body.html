@@ -2,7 +2,7 @@
 <script type="text/javascript">
     if(VRS && VRS.globalDispatch && VRS.serverConfig) {
         VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
-          
+
             if(bootStrap.hookMapInitialised) {
 
                 bootStrap.hookMapInitialised(function(pageSettings) {
@@ -16,22 +16,42 @@
 		var AerisID = 'INSERT API KEY';
 		var AerisSecretKey = 'INSERT API KEY';
 
-// Add Open AIP navaids
+    // Add TACAN, VOR and NDB icons
 
-		var tacanVOR = L.tileLayer('http://{s}.tile.maps.openaip.net/geowebcache/service/tms/1.0.0/openaip_approved_navaids@EPSG%3A900913@png/{z}/{x}/{y}.png', {
-                maxZoom: 14,
-                minZoom: 8,
-                tms: true,
-                detectRetina: true,
-                subdomains: '12',
-                format: 'image/png',
-                transparent: true,
-				opacity: 0.75,
-				attribution: "Airspace overlay from OpenAIP.net"
-            });
+    		var vorIcon = L.icon({
+        			iconUrl: 'navaid.png',
+        			iconSize:     [16, 16], // size of the icon
+        			iconAnchor:   [8, 8], // point of the icon which will correspond to marker's location
+        			popupAnchor:  [0, -20] // point from which the popup should open relative to the iconAnchor
+    		});
+
+    // Add navaids from GeoJSON file
+
+        var ukNavaidsGeoJSON = L.geoJson(Navaids, {
+          onEachFeature: function (feature, layer) {
+            layer.setIcon(vorIcon);
+            layer.bindPopup('<table><tr><th>Name</th><th>' + feature.properties.Name + '</th></tr><tr><td><span style="font-weight:bold">ID</span></td><td>' + feature.properties.ID + '</td></tr><tr><td><span style="font-weight:bold">Type</span></td><td>' + feature.properties.Type + '</td></tr><tr><td><span style="font-weight:bold">Frequency</span></td><td>' + feature.properties.Frequency + '</td></tr></table>');
+          }
+        });
+
+        // Add Open AIP navaids
+
+        		var openAIPnav = L.tileLayer('http://{s}.tile.maps.openaip.net/geowebcache/service/tms/1.0.0/openaip_approved_navaids@EPSG%3A900913@png/{z}/{x}/{y}.png', {
+                        maxZoom: 14,
+                        minZoom: 8,
+                        tms: true,
+                        detectRetina: true,
+                        subdomains: '12',
+                        format: 'image/png',
+                        transparent: true,
+        				opacity: 0.75,
+        				attribution: "OpenAIP.net"
+                    });
+
+        		var tacanVOR = L.layerGroup([openAIPnav, ukNavaidsGeoJSON]);
 
 //Define colours and style for AARA boxes and radar corridors
-		
+
 //		var aaraStyle = {
 //			"fillColor": "#71bf72",
 //			"color": "#71bf72",
@@ -45,7 +65,7 @@
 			"weight": 3,
 			"opacity": 0.35
 		};
-		
+
 
 // Add radar corridors
 
@@ -56,7 +76,7 @@
     		[51.738055555555555, -1.9138888888888888],
 			[51.64722222222222, -1.8877777777777778]
     	];
-    	
+
     	var radarDaventry_points = [
 			[52.075833333333335, -1.6594444444444443],
     		[52.346944444444446, -0.8261111111111111],
@@ -77,13 +97,13 @@
     		[54.61972222222222, -2.6191666666666666],
     		[54.78972222222222, -2.740277777777778]
     	];
-    	
+
         var radarGamston_points = [
 			[53.28583333333333, -1.0322222222222222],
     		[53.61222222222222, -0.77],
     		[53.540277777777774, -0.5177777777777778],
     		[53.236111111111114, -0.7641666666666667]
-    	];	
+    	];
 
         var radarLich_points = [
 			[52.698611111111106, -2.3191666666666664],
@@ -91,7 +111,7 @@
     		[52.80166666666666, -0.9725],
     		[52.97166666666667, -1.1427777777777777]
     	];
-	
+
         var radarLich2_points = [
 			[52.63638888888889, -2.578333333333333],
     		[52.54805555555556, -2.5030555555555556],
@@ -107,17 +127,17 @@
     		[52.4375, 0.23],
     		[51.70194444444445, -1.5227777777777778],
     		[51.67833333333333, -1.557777777777778]
-    	];	
-		
+    	];
+
 		var radarSwindon = L.polygon(radarSwindon_points, radarStyle);
 		var radarDaventry = L.polygon(radarDaventry_points, radarStyle);
 		var radarDaventry2 = L.polygon(radarDaventry2_points, radarStyle);
 		var radarDean = L.polygon(radarDean_points, radarStyle);
 		var radarGamston = L.polygon(radarGamston_points, radarStyle);
-		var radarLich = L.polygon(radarLich_points, radarStyle);			
-		var radarLich2 = L.polygon(radarLich2_points, radarStyle);	
+		var radarLich = L.polygon(radarLich_points, radarStyle);
+		var radarLich2 = L.polygon(radarLich2_points, radarStyle);
 		var radarWest = L.polygon(radarWest_points, radarStyle);
-		
+
 		var radarGroup = L.layerGroup([radarSwindon, radarDaventry, radarDaventry2, radarDean, radarGamston, radarLich, radarLich2, radarWest]);
 
 // Add A2A refuelling areas
@@ -128,28 +148,28 @@
     		[56.35, -5.083333],
     		[58.2, -5.083333]
 		]);
-		
+
 		var aara2 = L.polygon([
     		[59.31666, -0.51666],
     		[59.4666, 0.0666],
     		[58.21666, 1.25],
     		[58.0666, 0.68333]
 		]);
-		
+
 		var aara3 = L.polygon([
     		[57.883333, 0.83333],
     		[58.016666666666666, 1.4],
     		[56.416666666666664, 2.7666666666666666],
     		[56.28333333333333, 2.216666666666667]
 		]);
-		
+
 		var aara4 = L.polygon([
     		[58.266666666666666, 0.016666666666666666],
     		[57.96666666666667, 0.25],
     		[57.583333333333336, -1.4833333333333334],
     		[57.88333333333333, -1.7166666666666668]
 		]);
-		
+
 		var aara5 = L.polygon([
     		[56.05, -0.25],
     		[56.03333333333333, 1.6666666666666665],
@@ -183,14 +203,14 @@
     		[52.35, 1.8333333333333335],
     		[52.35, 2.6666666666666665],
     		[52.666666666666664, 2.9333333333333336]
-		]);		
+		]);
 
 		var aara10E = L.polygon([
     		[51.28333333333333, -2.3833333333333333],
     		[51, -2.0833333333333335],
     		[50.46611111111111, -3.978888888888889],
     		[50.86611111111111, -3.89]
-		]);	
+		]);
 
 		var aara10W = L.polygon([
     		[50.86611111111111, -3.89],
@@ -227,7 +247,7 @@
     		[55.866666666666673, -7.883333333333333],
     		[57.416666666666664, -7.083333333333333]
 		]);
-    
+
 		var aaraGroup = L.layerGroup([aara1, aara2, aara3, aara4, aara5, aara6, aara7, aara8, aara9, aara10E, aara10W, aara11, aara12, aara13, aara14]);
 
 // Add Open AIP airspace mapping
@@ -254,9 +274,9 @@
                 transparent: true,
 				opacity: 0.75,
 				attribution: "Airspace overlay from OpenAIP.net"
-            }); 
-            
-		var openAIPairspace = L.layerGroup([openAIPairspace, openAIPairspacelabels]);           
+            });
+
+		var openAIPairspace = L.layerGroup([openAIPairspace, openAIPairspacelabels]);
 
 // Add Open AIP airfields
 
@@ -274,13 +294,13 @@
 
 
 // Add Aeris Weather Tiles
-            
+
             var aerisCloud = L.tileLayer('https://maps.aerisapi.com/' + AerisID + '_' + AerisSecretKey + '/satellite/{z}/{x}/{y}/current.png', {
                 subdomains: '1234',
                 opacity: 0.5,
 				attribution: '&copy;AerisWeather'
             });
-            
+
             var aerisInfraSat = L.tileLayer('https://maps.aerisapi.com/' + AerisID + '_' + AerisSecretKey + '/satellite-infrared-color/{z}/{x}/{y}/current.png', {
                 subdomains: '1234',
                 opacity: 0.5,
@@ -291,7 +311,7 @@
                 subdomains: '1234',
 				attribution: '&copy;AerisWeather'
             });
-            
+
             var aerisWind = L.tileLayer('https://maps.aerisapi.com/' + AerisID + '_' + AerisSecretKey + '/fwind-speeds/{z}/{x}/{y}/current.png', {
                 subdomains: '1234',
                 opacity: 0.5,
@@ -313,6 +333,18 @@
             attribution: '&copy;OpenFlightMap'
             });
 
+// Add NASA Earth at Night
+
+var NASAGIBS_ViirsEarthAtNight2012 = L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+	attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
+	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+	minZoom: 1,
+	maxZoom: 8,
+	format: 'jpg',
+	time: '',
+	tilematrixset: 'GoogleMapsCompatible_Level'
+});
+
 // Define menu items
 
 		var groupedOverlays = {
@@ -333,12 +365,15 @@
   			"Regional overlays": {
 				"UK A2A refuelling areas": aaraGroup,
 				"UK military radar corridors": radarGroup,
-    				"Northern Europe Airspace": ofmEurope
-  			}
+    				"Northern Europe airspace": ofmEurope
+  			},
+        "Other cool stuff": {
+            "NASA Earth at night": NASAGIBS_ViirsEarthAtNight2012
+        }
 		};
 
 // Add layers and overlay menu to OSM map
-		
+
 		L.control.groupedLayers(null, groupedOverlays).addTo(map);
 
 

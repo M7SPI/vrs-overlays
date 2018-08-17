@@ -1,0 +1,2855 @@
+// Last updated 17 August 2018
+
+var Navaids = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glasgow",
+        "ID": "AC",
+        "Type": "NDB",
+        "Frequency": 325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.54274,
+          55.8141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Aberdeen",
+        "ID": "ADN",
+        "Type": "VOR/DME",
+        "Frequency": "114.30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.26722,
+          57.3106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Aberporth",
+        "ID": "AP",
+        "Type": "NDB",
+        "Frequency": "370.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.55983,
+          52.1163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Aberdeen",
+        "ID": "AQ",
+        "Type": "NDB",
+        "Frequency": 336
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.40472,
+          57.1383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Aberdeen Dyce",
+        "ID": "ATF",
+        "Type": "NDB",
+        "Frequency": 348
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1057,
+          57.0775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Benbecula",
+        "ID": "BCL",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.37032,
+          57.4751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Brecon",
+        "ID": "BCN",
+        "Type": "VOR/DME",
+        "Frequency": 117.45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.26306,
+          51.7256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Boscombe Down",
+        "ID": "BDN",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.75265,
+          51.149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Belfast",
+        "ID": "BEL",
+        "Type": "VOR",
+        "Frequency": "117.20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.23,
+          54.6611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Benbecula",
+        "ID": "BEN",
+        "Type": "VOR/DME",
+        "Frequency": 113.95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3653,
+          57.4779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Broadford",
+        "ID": "BFD",
+        "Type": "NDB",
+        "Frequency": 390
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.83286,
+          57.2548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Berry Head",
+        "ID": "BHD",
+        "Type": "VOR/DME",
+        "Frequency": 112.05
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.49361,
+          50.3986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Birmingham",
+        "ID": "BHX",
+        "Type": "NDB",
+        "Frequency": 406
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.75239,
+          52.4545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bournemouth",
+        "ID": "BIA",
+        "Type": "NDB",
+        "Frequency": 339
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.842495,
+          50.7777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Biggin",
+        "ID": "BIG",
+        "Type": "VOR/DME",
+        "Frequency": "115.10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0348115,
+          51.3309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ballykelly",
+        "ID": "BKL",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.01333,
+          55.0608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Barkway",
+        "ID": "BKY",
+        "Type": "VOR/DME",
+        "Frequency": 116.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.061944,
+          51.9897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Blackbushe",
+        "ID": "BLC",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.846378,
+          51.3239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Blackbushe",
+        "ID": "BLK",
+        "Type": "NDB",
+        "Frequency": 328
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.844794,
+          51.3233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bovingdon",
+        "ID": "BNN",
+        "Type": "VOR/DME",
+        "Frequency": 113.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.549722,
+          51.7261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bourn",
+        "ID": "BOU",
+        "Type": "NDB",
+        "Frequency": "391.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.044936,
+          52.2111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Brookmans Park",
+        "ID": "BPK",
+        "Type": "VOR/DME",
+        "Frequency": "117.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.106667,
+          51.7497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bristol",
+        "ID": "BRI",
+        "Type": "NDB",
+        "Frequency": 380
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.71619,
+          51.3805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Barra",
+        "ID": "BRR",
+        "Type": "NDB",
+        "Frequency": 316
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.44892,
+          57.0256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Benson",
+        "ID": "BSO",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.09944,
+          51.6145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Burnham",
+        "ID": "BUR",
+        "Type": "NDB",
+        "Frequency": 421
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.677222,
+          51.5189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Brough",
+        "ID": "BV",
+        "Type": "NDB",
+        "Frequency": 372
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.581483,
+          53.7254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Brize Norton",
+        "ID": "BZN",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6035,
+          51.7482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Caernarfon",
+        "ID": "CAE",
+        "Type": "NDB",
+        "Frequency": 320
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.34,
+          53.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cambridge",
+        "ID": "CAM",
+        "Type": "NDB",
+        "Frequency": "332.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.182792,
+          52.2109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Campbeltown",
+        "ID": "CBL",
+        "Type": "NDB",
+        "Frequency": 380
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.68807,
+          55.4356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cumbernauld",
+        "ID": "CBN",
+        "Type": "NDB",
+        "Frequency": 374
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.97472,
+          55.9756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cranfield",
+        "ID": "CFD",
+        "Type": "VOR",
+        "Frequency": "116.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.610792,
+          52.0742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Coningsby",
+        "ID": "CGY",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.168975,
+          53.091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chiltern",
+        "ID": "CHT",
+        "Type": "NDB",
+        "Frequency": 277
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.518333,
+          51.6231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Clacton",
+        "ID": "CLN",
+        "Type": "VOR/DME",
+        "Frequency": 114.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.14761,
+          51.8484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Compton Abbas",
+        "ID": "COM",
+        "Type": "NDB",
+        "Frequency": "349.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.15517,
+          50.9662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Compton",
+        "ID": "CPT",
+        "Type": "VOR/DME",
+        "Frequency": 114.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2197,
+          51.4917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Coltishall",
+        "ID": "CSL",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.34885,
+          52.7453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cottesmore",
+        "ID": "CTM",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.650769,
+          52.7354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cranwell",
+        "ID": "CWL",
+        "Type": "NDB",
+        "Frequency": 423
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.489072,
+          53.0264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cranwell",
+        "ID": "CWZ",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.485411,
+          53.0286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dean Cross",
+        "ID": "DCS",
+        "Type": "VOR/DME",
+        "Frequency": "115.20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.34056,
+          54.7219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Detling",
+        "ID": "DET",
+        "Type": "VOR/DME",
+        "Frequency": "117.30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.597222,
+          51.3039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dundee",
+        "ID": "DND",
+        "Type": "NDB",
+        "Frequency": 394
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.11492,
+          56.4551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Daventry",
+        "ID": "DTY",
+        "Type": "VOR/DME",
+        "Frequency": "116.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.11389,
+          52.1803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dover",
+        "ID": "DVR",
+        "Type": "VOR/DME",
+        "Frequency": 114.95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.35917,
+          51.1625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Southampton",
+        "ID": "EAS",
+        "Type": "NDB",
+        "Frequency": "391.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.35612,
+          50.955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Edinburgh",
+        "ID": "EDN",
+        "Type": "NDB",
+        "Frequency": 341
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.28412,
+          55.9784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Enniskillen",
+        "ID": "EKN",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.64337,
+          54.3942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Epsom",
+        "ID": "EPM",
+        "Type": "NDB",
+        "Frequency": 316
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.371944,
+          51.3194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fairford",
+        "ID": "FFA",
+        "Type": "TACAN",
+        "Frequency": 113.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.79761,
+          51.6817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fenland",
+        "ID": "FNL",
+        "Type": "NDB",
+        "Frequency": 401
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.027472,
+          52.7417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fairoaks",
+        "ID": "FOS",
+        "Type": "NDB",
+        "Frequency": 348
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.565428,
+          51.3474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gamston",
+        "ID": "GAM",
+        "Type": "VOR/DME",
+        "Frequency": "112.80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.947222,
+          53.2814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gatwick",
+        "ID": "GE",
+        "Type": "NDB",
+        "Frequency": 338
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.069133,
+          51.1644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glasgow",
+        "ID": "GLG",
+        "Type": "NDB",
+        "Frequency": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.33608,
+          55.9244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gloucestershire",
+        "ID": "GOS",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.16793,
+          51.8922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glasgow",
+        "ID": "GOW",
+        "Type": "VOR/DME",
+        "Frequency": "115.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.44573,
+          55.8705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gloucestershire",
+        "ID": "GST",
+        "Type": "NDB",
+        "Frequency": 331
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1679,
+          51.892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Goodwood",
+        "ID": "GWC",
+        "Type": "VOR/DME",
+        "Frequency": 114.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.756667,
+          50.8553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gatwick",
+        "ID": "GY",
+        "Type": "NDB",
+        "Frequency": 365
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.315956,
+          51.1307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Haverfordwest",
+        "ID": "HAV",
+        "Type": "NDB",
+        "Frequency": 328
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.96809,
+          51.8319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Henton",
+        "ID": "HEN",
+        "Type": "NDB",
+        "Frequency": "433.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.790278,
+          51.7597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Honiley",
+        "ID": "HON",
+        "Type": "VOR/DME",
+        "Frequency": 113.65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.66361,
+          52.3567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Inverness",
+        "ID": "INS",
+        "Type": "VOR/DME",
+        "Frequency": "109.20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.04154,
+          57.5426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Flotta",
+        "ID": "IOF",
+        "Type": "NDB",
+        "Frequency": 357
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.14506,
+          58.8299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Stornoway",
+        "ID": "ISV",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.32605,
+          58.2144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Islay",
+        "ID": "ISY",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24941,
+          55.683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Inverness",
+        "ID": "IVR",
+        "Type": "NDB",
+        "Frequency": 328
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.04597,
+          57.5415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bembridge",
+        "ID": "IW",
+        "Type": "NDB",
+        "Frequency": 426
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.10603,
+          50.6808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kinloss",
+        "ID": "KS",
+        "Type": "NSB",
+        "Frequency": 370
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.58704,
+          57.6504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kinloss",
+        "ID": "KSS",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.53511,
+          57.6593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kirkwall",
+        "ID": "KW",
+        "Type": "NDB",
+        "Frequency": 395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.91158,
+          58.9596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kirkwall",
+        "ID": "KWL",
+        "Type": "VOR/DME",
+        "Frequency": "108.60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.89395,
+          58.9597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lyneham",
+        "ID": "LA",
+        "Type": "NDB",
+        "Frequency": 282
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.00587,
+          51.5083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lambourne",
+        "ID": "LAM",
+        "Type": "VOR/DME",
+        "Frequency": "115.60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.151667,
+          51.6461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Islay",
+        "ID": "LAY",
+        "Type": "NDB",
+        "Frequency": 395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24941,
+          55.6829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Leeds Bradford",
+        "ID": "LBA",
+        "Type": "NDB",
+        "Frequency": "402.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.65289,
+          53.865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "City",
+        "ID": "LCY",
+        "Type": "NDB",
+        "Frequency": 322
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.067503,
+          51.5044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lydd",
+        "ID": "LDY",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.937478,
+          50.9592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Leicester",
+        "ID": "LE",
+        "Type": "DME",
+        "Frequency": "383.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.035,
+          52.6064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Leeming",
+        "ID": "LEE",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53667,
+          54.2967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lichfield",
+        "ID": "LIC",
+        "Type": "NDB",
+        "Frequency": 545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.71944,
+          52.7467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lakenheath",
+        "ID": "LKH",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.547964,
+          52.4064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lands End",
+        "ID": "LND",
+        "Type": "VOR/DME",
+        "Frequency": "114.20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.637,
+          50.1363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Longside",
+        "ID": "LNS",
+        "Type": "NDB",
+        "Frequency": 339
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.86831,
+          57.5165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "London",
+        "ID": "LON",
+        "Type": "VOR/DME",
+        "Frequency": "113.60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.466667,
+          51.4872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Linton on Ouse",
+        "ID": "LOO",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.24913,
+          54.0505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lashenden",
+        "ID": "LSH",
+        "Type": "NDB/DME",
+        "Frequency": 340
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.648056,
+          51.1547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Leuchars",
+        "ID": "LUK",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.86367,
+          56.3728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lydd",
+        "ID": "LYD",
+        "Type": "VOR/DME",
+        "Frequency": 114.05
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.878611,
+          50.9997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lyneham",
+        "ID": "LYE",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.99233,
+          51.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lydd",
+        "ID": "LYX",
+        "Type": "NDB",
+        "Frequency": 397
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.955286,
+          50.9722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Machrihanish",
+        "ID": "MAC",
+        "Type": "VOR/DME",
+        "Frequency": 116
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.65028,
+          55.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Marham",
+        "ID": "MAM",
+        "Type": "TACAN",
+        "Frequency": "Unoknwn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.553167,
+          52.6473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mayfield",
+        "ID": "MAY",
+        "Type": "VOR/DME",
+        "Frequency": "117.90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.116111,
+          51.0172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Manchester",
+        "ID": "MCH",
+        "Type": "NDB",
+        "Frequency": 428
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.27303,
+          53.3533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Manchester",
+        "ID": "MCT",
+        "Type": "VOR/DME",
+        "Frequency": 113.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.26222,
+          53.3569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Midhurst",
+        "ID": "MID",
+        "Type": "VOR/DME",
+        "Frequency": 114
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.625,
+          51.0539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mildenhall",
+        "ID": "MLD",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.488269,
+          52.3633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Great Yarmouth",
+        "ID": "ND",
+        "Type": "NDB",
+        "Frequency": 397
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.72681,
+          52.6372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Newcastle",
+        "ID": "NEW",
+        "Type": "VOR/DME",
+        "Frequency": 114.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.69837,
+          55.0384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New Galloway",
+        "ID": "NGY",
+        "Type": "NDB",
+        "Frequency": 399
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.16861,
+          55.1775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Norwich",
+        "ID": "NL",
+        "Type": "NDB",
+        "Frequency": "371.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.38471,
+          52.6764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Northampton",
+        "ID": "NN",
+        "Type": "NDB",
+        "Frequency": "378.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7955,
+          52.2987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Nottingham",
+        "ID": "NOT",
+        "Type": "NDB",
+        "Frequency": 430
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.07933,
+          52.9217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Newcastle",
+        "ID": "NT",
+        "Type": "NDB",
+        "Frequency": 352
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.64268,
+          55.0504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ockham",
+        "ID": "OCK",
+        "Type": "VOR/DME",
+        "Frequency": "115.30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.447222,
+          51.305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Odiham",
+        "ID": "ODI",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.948489,
+          51.2329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Filton",
+        "ID": "OF",
+        "Type": "NDB",
+        "Frequency": 325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.59023,
+          51.5219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ottringham",
+        "ID": "OTR",
+        "Type": "VOR/DME",
+        "Frequency": "113.90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.103611,
+          53.6983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Oxford",
+        "ID": "OX",
+        "Type": "NDB",
+        "Frequency": "367.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.32324,
+          51.8325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Oxford",
+        "ID": "OX",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.32282,
+          51.8324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Aldergrove",
+        "ID": "OY",
+        "Type": "NDB",
+        "Frequency": 332
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.08536,
+          54.6926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Prestwick",
+        "ID": "PIK",
+        "Type": "NDB",
+        "Frequency": 355
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.57725,
+          55.5061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pembrey",
+        "ID": "PMB",
+        "Type": "NDB",
+        "Frequency": 341
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.31113,
+          51.7137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pole Hill",
+        "ID": "POL",
+        "Type": "VOR/DME",
+        "Frequency": "112.10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.10333,
+          53.7439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Perth",
+        "ID": "PTH",
+        "Type": "VOR",
+        "Frequency": "110.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.36861,
+          56.4425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Prestwick",
+        "ID": "PW",
+        "Type": "NDB",
+        "Frequency": 426
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.68155,
+          55.5444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Plymouth",
+        "ID": "PY",
+        "Type": "NDB",
+        "Frequency": "396.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.11233,
+          50.4244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Rochester",
+        "ID": "RCH",
+        "Type": "NDB",
+        "Frequency": 369
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5036675,
+          51.3538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Redhill",
+        "ID": "RDL",
+        "Type": "NDB",
+        "Frequency": 343
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.140381,
+          51.2161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Isle of Man",
+        "ID": "RWY",
+        "Type": "NDB",
+        "Frequency": 359
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.62996,
+          54.081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "St Abbs",
+        "ID": "SAB",
+        "Type": "VOR/DME",
+        "Frequency": 112.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.20639,
+          55.9075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Southampton",
+        "ID": "SAM",
+        "Type": "VOR/DME",
+        "Frequency": 113.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.345,
+          50.9553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "St Athan",
+        "ID": "SAT",
+        "Type": "Tacan",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.43498,
+          51.4064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Stornoway",
+        "ID": "SAY",
+        "Type": "NDB/DME",
+        "Frequency": 431
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.32615,
+          58.214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sumburgh",
+        "ID": "SBH",
+        "Type": "NDB",
+        "Frequency": 351
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.29483,
+          59.8824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Strubby",
+        "ID": "SBY",
+        "Type": "NDB",
+        "Frequency": 330
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.176167,
+          53.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Seaford",
+        "ID": "SFD",
+        "Type": "VOR/DME",
+        "Frequency": 117
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.121944,
+          50.7606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheffield City",
+        "ID": "SFH",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.38314,
+          53.393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Shobdon",
+        "ID": "SH",
+        "Type": "NDB",
+        "Frequency": 426
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.87583,
+          52.2447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Scotstown Head",
+        "ID": "SHD",
+        "Type": "NDB",
+        "Frequency": 383
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.81722,
+          57.559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sleap",
+        "ID": "SLP",
+        "Type": "NDB",
+        "Frequency": 382
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.77361,
+          52.8336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "St Mawgan",
+        "ID": "SM",
+        "Type": "NDB",
+        "Frequency": "356.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.99455,
+          50.4481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheffield City",
+        "ID": "SMF",
+        "Type": "NDB",
+        "Frequency": 333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.38314,
+          53.3926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "St Mawgan",
+        "ID": "SMG",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.03025,
+          50.4345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Scatsta",
+        "ID": "SS",
+        "Type": "NDB",
+        "Frequency": "315.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.21534,
+          60.4602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Stansted",
+        "ID": "SSD",
+        "Type": "NDB",
+        "Frequency": 429
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.245031,
+          51.8946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "St Marys",
+        "ID": "STM",
+        "Type": "NDB",
+        "Frequency": 321
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.29113,
+          49.9141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Stornoway",
+        "ID": "STN",
+        "Type": "VOR/DME",
+        "Frequency": "115.10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.18306,
+          58.2069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Stumble",
+        "ID": "STU",
+        "Type": "VOR/DME",
+        "Frequency": "113.10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.04028,
+          51.9947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sumburgh",
+        "ID": "SUM",
+        "Type": "VOR/DME",
+        "Frequency": 117.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.28667,
+          59.8789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Shawbury",
+        "ID": "SWB",
+        "Type": "VOR/DME",
+        "Frequency": "116.80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.66254,
+          52.798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Swansea",
+        "ID": "SWN",
+        "Type": "NDB",
+        "Frequency": "320.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.06583,
+          51.6022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Swansea",
+        "ID": "SWZ",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.06528,
+          51.6036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Teeside",
+        "ID": "TD",
+        "Type": "NDB",
+        "Frequency": "347.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.33344,
+          54.5603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tiree",
+        "ID": "TIR",
+        "Type": "VOR/DME",
+        "Frequency": "117.70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.87556,
+          56.4932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tingwall",
+        "ID": "TL",
+        "Type": "NDB",
+        "Frequency": 376
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.24636,
+          60.1884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Talla",
+        "ID": "TLA",
+        "Type": "VOR/DME",
+        "Frequency": "113.80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.35278,
+          55.4992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tatenhill",
+        "ID": "TNL",
+        "Type": "NDB",
+        "Frequency": 327
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76667,
+          52.8147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Trent",
+        "ID": "TNT",
+        "Type": "VOR/DME",
+        "Frequency": "115.70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.67,
+          53.0539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Topcliffe",
+        "ID": "TOP",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.37849,
+          54.2057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Turnberry",
+        "ID": "TRN",
+        "Type": "VOR/DME",
+        "Frequency": "117.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.78389,
+          55.3133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Edinburgh",
+        "ID": "UW",
+        "Type": "NDB",
+        "Frequency": 368
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.50251,
+          55.9052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Yeovilton",
+        "ID": "VLN",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.63875,
+          51.005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Valley",
+        "ID": "VYL",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.54414,
+          53.2574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Waddington",
+        "ID": "WAD",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5269815,
+          53.16545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wallasey",
+        "ID": "WAL",
+        "Type": "VOR/DME",
+        "Frequency": "114.10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.13444,
+          53.3919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wolverhampton",
+        "ID": "WBA",
+        "Type": "NDB",
+        "Frequency": 356
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.26176,
+          52.5159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Westcott",
+        "ID": "WCO",
+        "Type": "NDB",
+        "Frequency": 335
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9625,
+          51.8531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Manchester Woodford",
+        "ID": "WFD",
+        "Type": "NDB",
+        "Frequency": 380
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.15836,
+          53.3377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Whitegate",
+        "ID": "WHI",
+        "Type": "NDB",
+        "Frequency": "368.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.62306,
+          53.185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wick",
+        "ID": "WIK",
+        "Type": "VOR/DME",
+        "Frequency": "113.60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.10028,
+          58.4589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wick",
+        "ID": "WIK",
+        "Type": "NDB",
+        "Frequency": 344
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.06312,
+          58.4467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wittering",
+        "ID": "WIT",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.498667,
+          52.608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Barrow",
+        "ID": "WL",
+        "Type": "NDB",
+        "Frequency": 385
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.26303,
+          54.1257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Barrow",
+        "ID": "WL",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.26486,
+          54.1272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Woodley",
+        "ID": "WOD",
+        "Type": "NDB",
+        "Frequency": 352
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.878889,
+          51.4528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wolverhampton",
+        "ID": "WOL",
+        "Type": "DME",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.26182,
+          52.5158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Welshpool",
+        "ID": "WPL",
+        "Type": "NDB/DME",
+        "Frequency": 323
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.153889,
+          52.629722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Warton",
+        "ID": "WTN",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.88788,
+          53.7421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Warton",
+        "ID": "WTN",
+        "Type": "NDB",
+        "Frequency": 337
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.85232,
+          53.7516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wattisham",
+        "ID": "WTZ",
+        "Type": "TACAN",
+        "Frequency": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.940469,
+          52.1219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jersey",
+        "ID": "JSY",
+        "Type": "VOR/DME",
+        "Frequency": "112.20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0819091796875,
+          49.21759710517596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alderney",
+        "ID": "ALD",
+        "Type": "NDB",
+        "Frequency": 383
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1997,
+          49.7089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Guernsey",
+        "ID": "GUR",
+        "Type": "VOR/DME",
+        "Frequency": "109.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.60369,
+          49.4372
+        ]
+      }
+    }
+  ]
+}
