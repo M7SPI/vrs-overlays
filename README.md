@@ -16,11 +16,11 @@ I am grateful for the following resources which have been used in this code:
 - Weather overlay images courtesy of [Aeris weather](https://www.aerisweather.com)
 - Waypoint markers from [sam210723](https://github.com/sam210723/vrs-waypoints)
 - Leaflet grouped layer control from [ismyrnow](https://github.com/ismyrnow/leaflet-groupedlayercontrol)
-- Night and day overlay from (Jörg Dietrich)(http://joergdietrich.github.io/Leaflet.Terminator/)
-- Leaflet colour markers from (pointhi)[https://github.com/pointhi/leaflet-color-markers]
+- Night and day overlay from [Jörg Dietrich](http://joergdietrich.github.io/Leaflet.Terminator/)
+- Leaflet awesome markers from [Ivoogdt](https://github.com/lvoogdt/Leaflet.awesome-markers)
 
 For the weather overlays to work you will need to sign up for an API code from [Aeris Weather](https://www.aerisweather.com/signup/developer/) and then insert it into the 'Put this file at end of body' file.
 
 Screenshot of working example:
 
-![Screenshot](https://github.com/nitro999/vrs-overlays/blob/master/screenshot.jpg)
+![Screenshot](https://github.com/nitro999/vrs-overlays/blob/master/screenshot.jpeg)

@@ -1,0 +1,26 @@
+﻿latfield,lonfield,title,icao,iata,runways,chart,toweruhf,towervhf,grounduhf,groundvhf
+51.6822,-1.79,RAF Fairford,EGVA,FFD,"09, 27",http://www.pb-photos.com/downloads/Fairford.pdf,338.225,130.675,234.25,121.8
+51.75,-1.5836,RAF Brize Norton,EGVN,BZZ,"08, 26",http://www.pb-photos.com/downloads/Brize%20Norton.pdf,379.75,123.725,240.55,121.725
+51.6164,-1.0958,RAF Benson,EGUB,BEX,"01, 19",http://www.pb-photos.com/downloads/Benson.pdf,318.1,127.15,279.15,121.8
+51.1522,-1.7474,MOD Boscombe Down,EGDM,N/A,"05, 23, 17, 35",http://www.pb-photos.com/downloads/Boscombe-Down.pdf,338.475,N/A,262.95,130.75
+53.093,-0.166,RAF Coningsby,EGXC,QCY,"07, 25",http://www.pb-photos.com/downloads/Coningsby.pdf,340.25,124.675,279.075,N/A
+52.64,-2.3056,DCAE Cosford,EGWC,N/A,"06, 24",http://www.pb-photos.com/downloads/Cosford.pdf,378.65,128.65,241.4,121.95
+53.0303,-0.4832,RAF Cranwell,EGYD,N/A,"01, 19, 09, 27, 09R, 27L",http://www.pb-photos.com/downloads/Cranwell.pdf,268.625,125.05,240.245,N/A
+50.0861,-5.2557,RNAS Culdrose,EGDR,N/A,"07, 25, 12, 30, 18, 36",http://www.pb-photos.com/downloads/Culdrose.pdf,279.775,127.75,318.1,N/A
+52.4093,0.561,RAF Lakenheath,EGUL,LKZ,"08, 24",http://www.pb-photos.com/downloads/Lakenheath.pdf,338.925,N/A,375.45,N/A
+54.2924,-1.5354,RAF Leeming,EGXE,N/A,"16, 34",http://www.pb-photos.com/downloads/Leeming.pdf,368.925,120.5,379.9,N/A
+54.0489,-1.2528,RAF Linton-ON-Ouse,EGXU,HRT,"04, 22, 10, 28",http://www.pb-photos.com/downloads/Linton-on-Ouse.pdf,240.825,136.125,278.325,N/A
+57.7052,-3.3392,RAF Lossiemouth,EGQS,LMO,"05, 23, 10, 28",http://www.pb-photos.com/downloads/Lossiemouth.pdf,279.05,118.2,268.625,118.25
+52.6484,0.5507,RAF Marham,EGYM,KNF,"01, 19, 06, 24",http://www.pb-photos.com/downloads/Marham.pdf,281.15,122.1,389.4,N/A
+51.1394,-1.5686,Middle Wallop,EGVP,N/A,"09, 27, 18, 36",http://www.pb-photos.com/downloads/Middle%20Wallop.pdf,242.275,118.6,N/A,N/A
+52.3619,0.4864,RAF Mildenhall,EGUN,MHZ,"11, 29",http://www.pb-photos.com/downloads/Mildenhall.pdf,370.25,122.55,337.975,121.625
+51.553,-0.4182,RAF Northolt,EGWU,NHT,"07, 25",http://www.pb-photos.com/downloads/Northolt.pdf,281.175,120.675,N/A,121.575
+51.2341,-0.9428,RAF Odiham,EGVO,ODH,"10, 28",http://www.pb-photos.com/downloads/Odiham.pdf,258.725,N/A,241.025,N/A
+52.7982,-2.668,RAF Shawbury,EGOS,N/A,"05, 23, 18, 36",http://www.pb-photos.com/downloads/Shawbury.pdf,378.45,N/A,389.4,N/A
+53.2481,-4.5353,RAF Valley,EGOV,VLY,"01, 19, 08, 26, 14, 32",http://www.pb-photos.com/downloads/Valley.pdf,268.625,N/A,266.8,N/A
+53.1662,-0.5238,RAF Waddington,EGXW,WTN,"02, 20",http://www.pb-photos.com/downloads/Waddington.pdf,256.675 and 257.800,122.1,342.125,N/A
+52.1273,0.9563,RAF Wattisham,EGUW,N/A,"05, 23",http://www.pb-photos.com/downloads/Wattisham.pdf,378.575,122.1,N/A,N/A
+52.6126,-0.4765,RAF Wittering,EGXT,N/A,"08, 26",http://www.pb-photos.com/downloads/Wittering.pdf,372.225,125.525,369.225,N/A
+51.0094,-2.6388,RNAS Yeovilton,EGDY,YEO,"04, 22, 09, 27",http://www.pb-photos.com/downloads/Yeovilton.pdf,375.575 and 378.525,N/A,268.625,N/A
+53.307778,-0.550833,RAF Sampton,EGXP,SQZ,"04, 22",None,Unknown,Unknown,Unknown,Unknown
+51.404722,-3.435833,MOD St Athan,EGDX,DGX,"07, 25",None,Unknown,Unknown,Unknown,Unknown
