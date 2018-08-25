@@ -1,6 +1,16 @@
-﻿latfield,lonfield,title,icao,iata,runways,chart,tower,atis,ground,approach
-51.8942,-2.1672,"Gloucestershire Airport, Staverton",EGBJ,GLO,"04, 22, 09, 27, 18, 36",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=73&Itemid=122.html,122.9,127.475,,
-51.6681,-2.0569,"Cotswold Airport, Kemble",EGBP,GBA,"08, 26",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=84&Itemid=133.html,118.9,,,
-51.8369,-1.32,Oxford (Kidlington),EGTK,OXF,"01, 19, 03, 21, 09, 27, 11, 29",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=113&Itemid=162.html,133.425,136.23,121.95,
-57.2019,-2.1978,Aberdeen Dyce Airport,EGPD,ABZ,"05, 23, 14, 32, 16, 34",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=12&Itemid=68.html,118.1,121.85,121.7,
-49.7061,-2.2147,Alderney Airport,EGJA,ACI,"03, 21, 08, 26, 14, 32",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=13&Itemid=62.html,125.35,,130.5,
+latfield,lonfield,title,icao,iata,runways,chart,tower,atis,ground,approach,airground,afis
+51.8942,-2.1672,"Gloucestershire Airport, Staverton",EGBJ,GLO,"04, 22, 09, 27, 18, 36",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=73&Itemid=122.html,122.9,127.475,None,None,None,None
+51.6681,-2.0569,"Cotswold Airport, Kemble",EGBP,GBA,"08, 26",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=84&Itemid=133.html,None,None,None,None,None,118.9
+51.8369,-1.32,Oxford (Kidlington),EGTK,OXF,"01, 19, 03, 21, 09, 27, 11, 29",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=113&Itemid=162.html,133.425,136.23,121.95,None,None,None
+57.2019,-2.1978,Aberdeen Dyce Airport,EGPD,ABZ,"05, 23, 14, 32, 16, 34",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=12&Itemid=68.html,118.1,121.85,121.7,None,None,None
+49.7061,-2.2147,Alderney Airport,EGJA,ACI,"03, 21, 08, 26, 14, 32",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=13&Itemid=62.html,125.35,None,130.5,None,None,None
+51.895,0.4492,Andrewsfield Airport,EGSL,None,"09L, 27R, 09R, 27L",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=14&Itemid=69.html,None,None,None,None,130.55,None
+57.0228,-7.4431,Barra Airport,EGPR,BRR,"07, 25, 11, 29, 15, 33",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=15&Itemid=70.html,None,None,None,None,None,118.075
+54.1286,-3.2675,Barrow Walney Island Airport,EGNL,BWF,"05, 23, 17, 35",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=16&Itemid=71.html,None,None,None,None,None,123.2
+52.4353,1.6183,Beccles Airport,EGSM,None,"09, 27",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=17&Itemid=72.html,None,None,None,None,120.375,None
+52.2325,-0.4456,Bedford Aerodrome,EGBF,None,"08, 26",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=217&Itemid=314.html,None,None,None,None,119.025,None
+54.6575,-6.2158,Belfast International Airport,EGAA,BFS,"07, 25, 17, 35",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=18&Itemid=73.html,118.3,128.2,None,None,None,None
+54.6181,-5.8725,George Best Belfast City Airport,EGAC,BHD,"04, 22",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=19&Itemid=74.html,122.825,136.625,None,None,None,None
+57.4811,-7.3628,Benbecula Airport,EGPL,BEB,"06, 24, 17, 35",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=27&Itemid=76.html,None,113.95,None,None,None,119.2
+51.3308,0.0325,London Biggin Hill Airport,EGKB,BQH,"03, 21, 11, 29",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=29&Itemid=78.html,134.8,135.675,None,None,None,None
+52.4539,-1.748,Birmingham International Airport,EGBB,BHX,"06, 24, 15, 33",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=30&Itemid=79.html,118.305,136.03,121.805,None,None,None
