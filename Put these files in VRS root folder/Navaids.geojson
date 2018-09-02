@@ -1,4 +1,4 @@
-// Last updated 17 August 2018
+// Last updated 30 August 2018
 
 var Navaids = {
   "type": "FeatureCollection",
@@ -2848,6 +2848,342 @@ var Navaids = {
         "coordinates": [
           -2.60369,
           49.4372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Baldonnel",
+        "ID": "BAL",
+        "Type": "VOR/DME",
+        "Frequency": "115.80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.44778,
+          53.2999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Donegal",
+        "ID": "CFN",
+        "Type": "NDB",
+        "Frequency": 361
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.33928,
+          55.044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Clonmel",
+        "ID": "CML",
+        "Type": "NDB",
+        "Frequency": 387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.48008,
+          52.4537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Connaught",
+        "ID": "CON",
+        "Type": "VOR/DME",
+        "Frequency": "117.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.81786,
+          53.913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cork",
+        "ID": "CRK",
+        "Type": "VOR/DME",
+        "Frequency": "114.60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.49427,
+          51.8406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Galway",
+        "ID": "CRN",
+        "Type": "NDB/DME",
+        "Frequency": 321
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.94218,
+          53.301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dubin",
+        "ID": "DUB",
+        "Type": "VOR/DME",
+        "Frequency": "114.90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.30711,
+          53.4994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ennis",
+        "ID": "ENS",
+        "Type": "NDB",
+        "Frequency": 352
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.92777,
+          52.9052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Foynes",
+        "ID": "FOY",
+        "Type": "NDB",
+        "Frequency": 395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.19541,
+          52.5663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Garristown",
+        "ID": "GAR",
+        "Type": "NDB",
+        "Frequency": 407
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.44746,
+          53.5287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gormanston",
+        "ID": "GMN",
+        "Type": "NDB/DME",
+        "Frequency": 334
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.234914,
+          53.646817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kerry",
+        "ID": "KER",
+        "Type": "NDB",
+        "Frequency": 334
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.52449,
+          52.1822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Killiney",
+        "ID": "KLY",
+        "Type": "NDB",
+        "Frequency": 378
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.10644,
+          53.2696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Connaught",
+        "ID": "KNK",
+        "Type": "NDB",
+        "Frequency": 364
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.937,
+          53.8965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Op",
+        "ID": "OP",
+        "Type": "NDB",
+        "Frequency": 397
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.13836,
+          53.4138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Rush",
+        "ID": "RSH",
+        "Type": "NDB",
+        "Frequency": 326
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.11053,
+          53.5119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Shannon",
+        "ID": "SHA",
+        "Type": "VOR/DME",
+        "Frequency": "113.30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.88521,
+          52.721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sligo",
+        "ID": "SLG",
+        "Type": "NDB/DME",
+        "Frequency": 384
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.59988,
+          54.2783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Waterford",
+        "ID": "WTD",
+        "Type": "NDB",
+        "Frequency": 368
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.08334,
+          52.189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Carnane",
+        "ID": "CAR",
+        "Type": "NDB",
+        "Frequency": "366.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.49167,
+          54.1411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Isle of Man",
+        "ID": "IOM",
+        "Type": "VOR/DME",
+        "Frequency": 112.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.76347,
+          54.0669
         ]
       }
     }

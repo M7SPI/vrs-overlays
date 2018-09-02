@@ -1,4 +1,4 @@
-latfield,lonfield,title,icao,iata,runways,chart,tower,atis,ground,approach,airground,afis
+﻿latfield,lonfield,title,icao,iata,runways,chart,tower,atis,ground,approach,airground,afis
 51.8942,-2.1672,"Gloucestershire Airport, Staverton",EGBJ,GLO,"04, 22, 09, 27, 18, 36",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=73&Itemid=122.html,122.9,127.475,None,None,None,None
 51.6681,-2.0569,"Cotswold Airport, Kemble",EGBP,GBA,"08, 26",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=84&Itemid=133.html,None,None,None,None,None,118.9
 51.8369,-1.32,Oxford (Kidlington),EGTK,OXF,"01, 19, 03, 21, 09, 27, 11, 29",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=113&Itemid=162.html,133.425,136.23,121.95,None,None,None
@@ -35,3 +35,32 @@ latfield,lonfield,title,icao,iata,runways,chart,tower,atis,ground,approach,airgr
 52.8597,-1.6175,Derby Airfield,EGBD,None,"05, 23, 10, 28, 17, 35",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=52&Itemid=101.html,None,None,None,None,118.35,None
 53.4805,-1.0107,Robin Hood Doncaster Sheffield Airport,EGCN,DSA,"02, 20",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=53&Itemid=102.html,128.775,134.95,None,None,None,None
 56.4525,-3.0258,Dundee Airport,EGPN,DND,"10, 28",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=54&Itemid=103.html,122.9,119.325,None,None,None,None
+50.86,-3.2347,Dunkeswell Airport,EGTU,None,"05, 23, 17, 35",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=55&Itemid=104.html,None,None,None,None,123.475,None
+54.5092,-1.4294,Durham Tees Valley Airport,EGNV,MME,"05, 23",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=56&Itemid=105.html,119.8,None,None,None,None,None
+52.0908,0.1319,Duxford Aerodrome,EGSU,QFO,"06R, 24R, 06L, 24R",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=57&Itemid=106.html,None,None,None,None,None,122.075
+51.9144,0.6825,Earls Colne Airfield,EGSR,None,"06, 24",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=59&Itemid=108.html,None,None,None,None,122.425,None
+52.8311,-1.3281,East Midlands Airport,EGNX,EMA,"09, 27",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=60&Itemid=109.html,124,122.675,121.9,None,None,None
+59.1906,-2.7722,Eday Airport,EGED,EOI,"07, 25",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=61&Itemid=110.html,None,None,None,None,None,None
+55.95,-3.3725,Edinburgh Airport,EGPH,EDI,"06, 24",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=62&Itemid=111.html,118.7,131.35,121.75,None,None,None
+51.6558,-0.3258,Elstree Airfield,EGTR,None,"08, 26",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=63&Itemid=112.html,None,None,None,None,None,122.4
+54.3989,-7.6517,St Angelo Airport,EGAB,ENK,"14, 32",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=64&Itemid=113.html,None,None,None,None,123.2,None
+50.7344,-3.4139,Exeter International Airport,EGTE,EXT,"08, 26",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=65&Itemid=114.html,119.8,119.325,None,None,None,None
+59.5358,-1.6281,Fair Isle Airport,EGEF,FIE,"06, 24",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=66&Itemid=115.html,None,None,None,None,118.025,None
+51.3481,-0.5589,Fairoaks Airport,EGTF,None,"06, 24",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=67&Itemid=116.html,None,None,None,None,123.43,123.43
+51.2758,-0.7763,Farnborough Airport,EGLF,FAB,"06, 24",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=68&Itemid=117.html,122.78,128.405,None,None,None,None
+52.7392,-0.0297,Fenland Airfield,EGCL,None,"08, 26, 18, 36",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=69&Itemid=118.html,None,None,None,None,122.925,None
+55.8719,-4.4331,Glasgow International Airport,EGPF,GLA,"05, 23, 09, 27",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=72&Itemid=121.html,118.8,129.575,121.7,None,None,None
+49.435,-2.602,Guernsey Airport,EGJB,GCI,"09, 27",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=74&Itemid=123.html,119.95,109.4,121.8,None,None,None
+51.8331,-4.9611,Haverfordwest Airport,EGFE,HAW,"03, 21, 09, 27",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=75&Itemid=124.html,None,None,None,None,122.2,None
+53.1781,-2.9778,Hawarden Airport,EGNR,CEG,"05, 23",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=76&Itemid=125.html,124.955,125.43,None,None,None,None
+53.5744,-0.3508,Humberside Airport,EGNJ,HUY,"03, 21, 09, 27",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=78&Itemid=127.html,"124.900, 119.130",124.13,None,None,None,None
+57.5425,-4.0475,Inverness Airport,EGPE,INV,"05, 23, 12, 30",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=79&Itemid=128.html,118.4,109.2,None,None,None,None
+55.6819,-6.2567,Islay Airport,EGPI,ILY,"08, 26, 13, 31",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=80&Itemid=129.html,None,None,None,None,None,123.15
+54.0833,-4.6239,Isle of Man Airport,EGNS,IOM,"03, 21, 08, 26",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=81&Itemid=130.html,119,123.875,None,None,None,None
+49.2079,-2.1955,Jersey Airport,EGJJ,JER,"09, 27",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=83&Itemid=132.html,119.45,134.675,121.9,None,None,None
+58.9578,-2.905,Kirkwall Airport,EGPA,KOI,"09, 27, 14, 32",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=85&Itemid=134.html,118.3,108.6,,None,None,118.3
+50.1028,-5.6706,Land's End Airport,EGHC,LEQ,"02, 20, 07, 25, 12, 30, 16, 34",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=86&Itemid=135.html,120.25,None,None,None,None,None
+51.1569,0.6417,Lashenden (Headcorn) Airfield,EGKH,None,"10, 28, 03, 21",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=87&Itemid=136.html,None,None,None,None,122,None
+53.8659,-1.6606,Leeds Bradford Airport,EGNM,LBA,"14, 32",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=88&Itemid=137.html,"120.305, 121.805",118.03,None,None,None,None
+53.8344,-1.1956,Leeds East,EGCM,None,"06, 24, 16, 34",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=251&Itemid=441.html,None,None,None,None,126.5,None
+50.8142,-1.2033,Lee-on-Solent,EGHF,None,"05, 23",http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=248&Itemid=432.html,None,None,None,None,118.925,None

@@ -3,15 +3,15 @@
 <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
 <script src="icons/leaflet.awesome-markers.js"></script>
 <script type="text/javascript">
+
+// Written by Chris Gault chrisgault@gmail.com
+// Please see https://github.com/nitro999/vrs-overlays for latest version
+
     if(VRS && VRS.globalDispatch && VRS.serverConfig) {
         VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
-
             if(bootStrap.hookMapInitialised) {
-
                 bootStrap.hookMapInitialised(function(pageSettings) {
-
                     if(pageSettings.mapPlugin && pageSettings.mapPlugin.getNativeType() === 'OpenStreetMap') {
-
                         var map = pageSettings.mapPlugin.getNative();
 
 //Add API Keys here
@@ -101,11 +101,12 @@
     var civAirfieldsStyle = L.geoJson(null, {
           onEachFeature: function (feature, layer) {
             layer.setIcon(civIcon);
-            layer.bindPopup('<table><tr><th>' + feature.properties.title + '</th></tr><tr><td>ICAO</td><td>' + feature.properties.icao + '</td></tr><tr><td>IATA</td><td>' + feature.properties.iata + '</td></tr><tr><td>Runways</td><td>' + feature.properties.runways + '</td></tr><tr><td>Chart</td><td><a href=' + feature.properties.chart + ' target ="charts">View</a></td></tr><tr><td>Tower Frequency</td><td>' + feature.properties.tower + '</td></tr><tr><td>ATIS Frequency</td><td>' + feature.properties.atis + '</td></tr><tr><td>Ground Frequency</td><td>' + feature.properties.ground + '</td></tr><tr><td>Approach Frequency</td><td>' + feature.properties.approach + '</td></tr></table>');
+            layer.bindPopup('<table><tr><th>' + feature.properties.title + '</th></tr><tr><td>ICAO</td><td>' + feature.properties.icao + '</td></tr><tr><td>IATA</td><td>' + feature.properties.iata + '</td></tr><tr><td>Runways</td><td>' + feature.properties.runways + '</td></tr><tr><td>Chart</td><td><a href=' + feature.properties.chart + ' target ="charts">View</a></td></tr><tr><td>Tower Frequency</td><td>' + feature.properties.tower + '</td></tr><tr><td>ATIS Frequency</td><td>' + feature.properties.atis + '</td></tr><tr><td>Ground Frequency</td><td>' + feature.properties.ground + '</td></tr><tr><td>Approach Frequency</td><td>' + feature.properties.approach + '</td></tr><tr><td>Air Ground Frequency</td><td>' + feature.properties.airground + '</td></tr><tr><td>AFIS Frequency</td><td>' + feature.properties.afis + '</td></tr></table>');
           }
         });
 
-    var civilAirfields = omnivore.csv('https://cdn.rawgit.com/nitro999/vrs-overlays/master/Put%20these%20files%20in%20VRS%20root%20folder/civairfields.csv', null, civAirfieldsStyle);
+    //var civilAirfields = omnivore.csv('https://rawgit.com/nitro999/vrs-overlays/master/Put%20these%20files%20in%20VRS%20root%20folder/civairfields.csv', null, civAirfieldsStyle);
+    var civilAirfields = omnivore.csv('civairfields.csv', null, civAirfieldsStyle);
 
     // Add UK mil airfields
 
@@ -116,7 +117,17 @@
       }
     });
 
-    var milAirfields = omnivore.csv('https://cdn.rawgit.com/nitro999/vrs-overlays/master/Put%20these%20files%20in%20VRS%20root%20folder/milairfields.csv', null, milAirfieldsStyle);
+    //var milAirfields = omnivore.csv('https://rawgit.com/nitro999/vrs-overlays/master/Put%20these%20files%20in%20VRS%20root%20folder/milairfields.csv', null, milAirfieldsStyle);
+    var milAirfields = omnivore.csv('milairfields.csv', null, milAirfieldsStyle);
+
+    //Define colours and style for AARA boxes and radar corridors
+
+    //		var aaraStyle = {
+    //			"fillColor": "#71bf72",
+    //			"color": "#71bf72",
+    //			"weight": 1.5,
+    //			"opacity": 0.35
+    //		};
 
     		var radarStyle = {
     			"fillColor": "#00ffff",
@@ -420,6 +431,7 @@
     });
 
 
+
     // Define menu items
 
     var groupedOverlays = {
@@ -433,7 +445,7 @@
         "Rain radar": aerisInfraSat,
         "Wind" : aerisWind,
         "Air pressure (QNH)": aerisPressure,
-        "Satellite" : nasaSat,
+    //    "Satellite" : nasaSat,
         "Daylight and Night" : dayNight
         },
         "UK overlays": {
@@ -444,9 +456,9 @@
         "Military airfields": milAirfields,
         "Northern Europe airspace": ofmEurope
         }
-        "Other cool stuff": {
-        "NASA Earth at night": NASAGIBS_ViirsEarthAtNight2012
-        }
+    //    "Other cool stuff": {
+    //    "NASA Earth at night": NASAGIBS_ViirsEarthAtNight2012
+    //    }
     };
 
     // Add layers and overlay menu to OSM map
