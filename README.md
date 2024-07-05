@@ -23,4 +23,3 @@ For the weather overlays to work you will need to sign up for an API code from [
 
 Screenshot of working example:
 
-![Screenshot](https://github.com/nitro999/vrs-overlays/blob/master/screenshot.jpeg)
